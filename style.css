@@ -9,7 +9,7 @@ body{
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
     background-color: #EEEEEE;
-    background-image: url(img/paper-753508_640.jpg);
+    background-image: url(img/textured_paper.png);
     font-family: "B52", sans-serif;
 }
 .container__header{
@@ -31,7 +31,7 @@ body{
     transform: rotate(-7deg);
     filter:grayscale(100%);
     position: relative;
-    right:2rem;
+    right:3rem;
     grid-column-start:8;
    /*  grid-column-end: 8; */
     grid-row-start: 1;
@@ -84,7 +84,7 @@ main{
     border:0.2rem solid #999;
     padding:0.5rem;
     border-image: url(/img/scratch.svg) repeat;
-    border-image-slice: 100% 0% 100% 10%;
+    border-image-slice: 100% 0% 0% 10%;
 }
 .about p{
     margin:0;

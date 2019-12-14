@@ -93,11 +93,7 @@ main{
 }
 #sigCommentsBlock{
     background-image: url(img/textured_paper.png);
-    width:50%;
-   
-    opacity:.5;
-}
-#sigCommentsBlock:hover{
-    opacity:1;
-}
+    width:50%;  
+    }
+
 

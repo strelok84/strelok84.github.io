@@ -93,7 +93,8 @@ main{
 }
 #sigCommentsBlock{
     background-image: url(img/textured_paper.png);
-    width:50%;  
+    width:50%;
+    float:right;
     }
 
 

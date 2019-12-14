@@ -103,6 +103,6 @@ main{
 #chatBlockBox{
     background-image: url(img/textured_paper.png);
 }
-iframe{
+iframe .chatContainer{
     background-image: url(img/textured_paper.png);
 }

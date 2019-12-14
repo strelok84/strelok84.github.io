@@ -94,13 +94,14 @@ main{
 #sigCommentsBlock{
     background-image: url(img/textured_paper.png);
     width:50%;
-    height:10rem;
+    height:5vh;
     overflow:hidden;
     margin-right:10px;
     margin-left:auto;
     }
 #sigCommentsBlock:hover{
     height:100%;
+    transition:2s;
 }
 
 

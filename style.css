@@ -100,9 +100,4 @@ main{
 #sigCommentsBlock:hover{
     opacity:1;
 }
-#chatBlockBox{
-    background-image: url(img/textured_paper.png);
-}
-iframe>#gChatFrame>html{
-    background-image: url(img/textured_paper.png);
-}
+

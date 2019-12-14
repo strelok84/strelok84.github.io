@@ -100,3 +100,6 @@ main{
 #sigCommentsBlock:hover{
     opacity:1;
 }
+#sigCommentsBlock div{
+  background-image: url(img/textured_paper.png);
+}

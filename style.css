@@ -91,4 +91,6 @@ main{
     
     font-size: 1.5rem;
 }
-
+#sigCommentsBlock{
+    background-image: url(img/textured_paper.png);
+}

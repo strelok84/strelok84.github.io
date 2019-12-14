@@ -100,4 +100,6 @@ main{
 #sigCommentsBlock:hover{
     opacity:1;
 }
-
+#chatBlockBox{
+    background-image: url(img/textured_paper.png);
+}

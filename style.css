@@ -94,7 +94,7 @@ main{
 #sigCommentsBlock{
     background-image: url(img/textured_paper.png);
     width:50%;
-    height:10%;
+    height:10rem;
     overflow:hidden;
     margin-right:10px;
     margin-left:auto;

@@ -103,3 +103,6 @@ main{
 #chatBlockBox{
     background-image: url(img/textured_paper.png);
 }
+.chatContainer{
+    background-image: url(img/textured_paper.png);
+}

@@ -102,6 +102,13 @@ main{
 #sigCommentsBlock:hover{
 scale:1;
 }
-
-
+.hide {
+    display: none; 
+}
+.hide + label ~ div{
+    display: none;
+}
+.hide:checked + label + div {
+    display: block;     
+}
 

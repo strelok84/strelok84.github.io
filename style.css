@@ -38,7 +38,7 @@ body{
     grid-row-end: 3;
     box-shadow: black 2px 2px 2px;
     background-image: url("img/selfie.jpg") ;
-    background-size: cover;
+    background-size:cover;
    
 }
 .container__selfie:hover{
@@ -121,4 +121,7 @@ border-radius:5%;
 .hide:checked + label + div {
     display: block;     
 }
-
+.scheme__about{
+    width: 50%;
+    margin-top: 2vh;
+}

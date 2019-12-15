@@ -93,17 +93,18 @@ main{
 }
 #sigCommentsBlock{
     background-image: url(img/textured_paper.png);
-    width:50%;
-    scale:.7;
-    overflow:hidden;
+    width:100%;
+   
+   
     margin-right:10px;
     margin-left:auto;
     }
-#sigCommentsBlock:hover{
-scale:1;
-}
+
 .hide {
     display: none; 
+}
+.hide + label {
+border:1px solid #888;
 }
 .hide + label ~ div{
     display: none;

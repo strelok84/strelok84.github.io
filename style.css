@@ -104,10 +104,11 @@ main{
     display: none; 
 }
 .hide + label {
+display:block;
 border:2px solid #888;
-box-shadow:2px;
+box-shadow:#999 2px 2px 2px;
 margin-left:auto;
-margin-right:auto;
+margin-right:2vh;
 }
 .hide + label ~ div{
     display: none;

@@ -43,7 +43,7 @@ body{
     display: block;
     width:10rem;
     height:13rem;
-    filter: drop-shadow(.1vw 0.2vh .1vw #000);
+    filter: drop-shadow(.1vw 0.2vh .05vw #000);
 }
 .container__selfie:hover{
     filter:grayscale(0%);

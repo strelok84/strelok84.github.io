@@ -68,6 +68,7 @@ body{
 @font-face {
     font-family: "B52";
     src:url(fonts/b52_[allfont.ru].ttf);
+    font-display:swap;
    }
 .container__hello{
     grid-column-start:1;

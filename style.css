@@ -131,3 +131,7 @@ border-radius:5%;
     width: 50%;
     margin-top: 2vh;
 }
+.hide + label[for="hd-2"]{
+    margin-right:auto;
+    margin-left:2vh;
+}

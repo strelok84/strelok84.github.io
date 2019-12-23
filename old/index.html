@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Yandex.Metrika counter -->
+<script type="text/javascript" async>
+  var worker=new Worker('metrica.js');
+	worker.postMessage();	
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/56675236" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Этот сайт просто пробная страничка для отработки разных навыков.">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="фронтенд, обучение, тренировка, HTML, SEO, CSS">
+    <meta name="yandex-verification" content="c47266468b86c0d3" />
+    <title>Андрей Беспалов</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="container__header">
+            <p class="container__hello">Привет! Меня зовут Андрей и я увлекаюсь фронтенд-разработкой</p>
+            
+            <div class="container__selfie"> 
+                <img class="img__selfie" src="img/selfie.jpg" srcset="img/selfie.webp">
+            </div>
+        </header>
+        <main>
+            <section class="about" itemscope itemtype="http://schema.org/Person">
+                <p>
+                    Немного о себе:<br>
+                    Мне 35 лет. <span itemprop="address">Я живу в Самаре.</span><span itemprop="alumniOf"> У меня экономическое образование(alma mater - УрГЭУ) и я работаю менеджером на складе.</span> Занимаюсь спортом (железо и бег), люблю читать и развиваться.
+                    В данный момент я увлекаюсь фронтенд-разработкой. <!-- <noindex> -->Этот сайт пробная страничка для отработки разных навыков.<!-- </noindex> -->
+                </p>
+		<input type="checkbox" id="hd-1" class="hide"/>
+                <label for="hd-1" >Комментарии</label>
+		<div id="sigCommentsBlock"></div>
+		<script type="text/javascript" async>
+			(function(){
+				var host_id = '3719';
+				var script = document.createElement('script');
+				script.type = 'text/javascript';
+				script.async = true;
+				script.src = '//sigcomments.com/chat/?host_id='+host_id;
+				var ss = document.getElementsByTagName('script')[0]; 
+				ss.parentNode.insertBefore(script, ss);
+			})();
+		</script>
+	       
+            </section>
+            <section class="about">
+                <p>Основная модель по которой я развиваюсь:</p>
+                <input type="checkbox" id="hd-2" class="hide"/>
+                <label for="hd-2" >Roadmap от уважаемого <a href="https://github.com/kamranahmedse/kamranahmedse.github.io">kamranahmedse</a></label>
+                <div>
+                <img src="img/frontendScheme.png" alt="схема_развития" class="scheme__about" srcset="img\frontendScheme.webp">
+                </div>          
+            </section>    
+        </main>
+    </div>
+    
+</body>
+</html>

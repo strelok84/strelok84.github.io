@@ -2,7 +2,7 @@ import React from 'react';
 
 function Main(){
     return(
-        <main>
+        <div>
             <section className="about" itemscope itemtype="http://schema.org/Person">
                 <p>
                     Немного о себе:<br />
@@ -28,14 +28,14 @@ function Main(){
                 </script>
             </section>
             <section className="about">
-                <p>Основная модель по которой я развиваюсь:</p>
+                 <p>Основная модель по которой я развиваюсь:</p>
                 <input type="checkbox" id="hd-2" class="hide"/>
                 <label for="hd-2" >Roadmap от уважаемого <a href="https://github.com/kamranahmedse/kamranahmedse.github.io">kamranahmedse</a></label>
                 <div>
                 <img src="img/frontendScheme.png" alt="схема_развития" class="scheme__about" srcset="img\frontendScheme.webp" />
-                </div>          
+                </div>      
             </section>    
-        </main>
+        </div>
     )
 }
 

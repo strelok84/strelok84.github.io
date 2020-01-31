@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: streloc84.github.io
-Token: f6d23a10af40f4542a37ac6ea7fcc6ec20541086815ef2cee65dd680931d2a27

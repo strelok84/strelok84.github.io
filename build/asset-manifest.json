@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.c24608e9.chunk.css",
-    "main.js": "/static/js/main.419e435e.chunk.js",
-    "main.js.map": "/static/js/main.419e435e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.da560050.js",
-    "runtime-main.js.map": "/static/js/runtime-main.da560050.js.map",
-    "static/js/2.92e4bd99.chunk.js": "/static/js/2.92e4bd99.chunk.js",
-    "static/js/2.92e4bd99.chunk.js.map": "/static/js/2.92e4bd99.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.0d339426cba9e37983785a9c890f51bf.js": "/precache-manifest.0d339426cba9e37983785a9c890f51bf.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c24608e9.chunk.css.map": "/static/css/main.c24608e9.chunk.css.map",
-    "static/js/2.92e4bd99.chunk.js.LICENSE": "/static/js/2.92e4bd99.chunk.js.LICENSE",
-    "static/media/index.css": "/static/media/textured_paper.3c0f6fd6.png"
+    "main.css": "/streloc84.github.io/streloc84.github.io/static/css/main.302bf222.chunk.css",
+    "main.js": "/streloc84.github.io/streloc84.github.io/static/js/main.7c0a7a72.chunk.js",
+    "main.js.map": "/streloc84.github.io/streloc84.github.io/static/js/main.7c0a7a72.chunk.js.map",
+    "runtime-main.js": "/streloc84.github.io/streloc84.github.io/static/js/runtime-main.50aedc56.js",
+    "runtime-main.js.map": "/streloc84.github.io/streloc84.github.io/static/js/runtime-main.50aedc56.js.map",
+    "static/js/2.92e4bd99.chunk.js": "/streloc84.github.io/streloc84.github.io/static/js/2.92e4bd99.chunk.js",
+    "static/js/2.92e4bd99.chunk.js.map": "/streloc84.github.io/streloc84.github.io/static/js/2.92e4bd99.chunk.js.map",
+    "index.html": "/streloc84.github.io/streloc84.github.io/index.html",
+    "precache-manifest.efec498bf51d48e74b7750155c21ab64.js": "/streloc84.github.io/streloc84.github.io/precache-manifest.efec498bf51d48e74b7750155c21ab64.js",
+    "service-worker.js": "/streloc84.github.io/streloc84.github.io/service-worker.js",
+    "static/css/main.302bf222.chunk.css.map": "/streloc84.github.io/streloc84.github.io/static/css/main.302bf222.chunk.css.map",
+    "static/js/2.92e4bd99.chunk.js.LICENSE": "/streloc84.github.io/streloc84.github.io/static/js/2.92e4bd99.chunk.js.LICENSE",
+    "static/media/index.css": "/streloc84.github.io/streloc84.github.io/static/media/textured_paper.3c0f6fd6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.da560050.js",
+    "static/js/runtime-main.50aedc56.js",
     "static/js/2.92e4bd99.chunk.js",
-    "static/css/main.c24608e9.chunk.css",
-    "static/js/main.419e435e.chunk.js"
+    "static/css/main.302bf222.chunk.css",
+    "static/js/main.7c0a7a72.chunk.js"
   ]
 }

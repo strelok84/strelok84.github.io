@@ -15,7 +15,7 @@ function CommentBlock(){
                         script.type = 'text/javascript';
                         script.async = true;
                         script.src = '//sigcomments.com/chat/?host_id='+host_id;
-                        var ss = document.getElementsByTagName('script')[0]; 
+                        var ss = document.getElementsByTagName('script')[1]; 
                         ss.parentNode.insertBefore(script, ss);
                     })()};
                 </script>

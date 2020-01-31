@@ -2,7 +2,7 @@
   "name": "whoiam",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/streloc84/myapp",
+  "homepage": "https://github.com/streloc84.github.io/myapp",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",

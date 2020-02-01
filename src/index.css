@@ -131,3 +131,52 @@ border-radius:5%;
   width: 50%;
   margin-top: 2vh;
 }
+/* .nameComment{
+  float: left;
+}
+.textComment{
+  float: left;
+} */
+.wrapper {
+  
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+}
+form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+.form-row > label {
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+.form-row > input,.form-row > textarea {
+  flex: 2;
+}
+.form-row > input,
+.form-row > button,
+.form-row > textarea {
+  padding: .5em;
+}
+.form-row > button {
+  background: gray;
+  color: white;
+  border: 0;
+}
+.Comment{
+  border:2px solid #888;
+  box-shadow:#999 2px 2px 2px;
+  margin-right:2vw;
+  margin-left:auto;
+  width:50%;
+  padding:1rem;
+}
+.textComment>textarea{
+  width:100%;
+  margin:.5rem auto;
+}
+.nameComment>input{
+  margin:.5rem auto;
+}

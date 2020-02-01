@@ -1,4 +1,5 @@
 import React from 'react';
+import Comment from "./Comment"
 
 function Main(){
     return(
@@ -14,18 +15,10 @@ function Main(){
                 </p>
                 <input type="checkbox" id="hd-1" class="hide"/>
                 <label for="hd-1" >Комментарии</label>
-		        <div id="sigCommentsBlock"></div>
-                <script type="text/javascript" async>
-                    {(function(){
-                        let host_id = '3719';
-                        var script = document.createElement('script');
-                        script.type = 'text/javascript';
-                        script.async = true;
-                        script.src = '//sigcomments.com/chat/?host_id='+host_id;
-                        var ss = document.getElementsByTagName('script')[0]; 
-                        ss.parentNode.insertBefore(script, ss);
-                    })()};
-                </script>
+		        <div id="sigCommentsBlock">
+                    <Comment />
+                </div>
+                
             </section>
             <section className="about">
                  <p>Основная модель по которой я развиваюсь:</p>

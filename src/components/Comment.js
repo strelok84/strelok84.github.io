@@ -55,25 +55,34 @@ class Comment extends Component {
  
   render() {
     return (
-      <div className="App">
+      <div className="Comment">
         {this.state.comments.map(comment => <div key={comment.id}>
-          <span style={{ fontStyle: 'italic' }}>{comment.id} - {format(comment.date, 'dd/mm/yyyy')}: </span>
-          <strong>{comment.name}, </strong>
+          <span style={{ fontStyle: 'italic' }}>{comment.id} - {/* format(comment.date, 'dd/mm/yyyy') */} </span>
+          <strong>{comment.name}: </strong>
           <span>{comment.comment}</span>
-          <button onClick={this.removeComment.bind(null, comment.id)}>Удалить комментарий</button>
+          <button onClick={this.removeComment.bind(null, comment.id)}>Удалить</button>
         </div>)}
         <div>
-          <label>Имя: <input
-            type="text"
-            value={this.state.form.name}
-            name="name"
-            onChange={this.handleChange} /></label>
-          <label>Комментарий: <textarea
-            name="comment"
-            value={this.state.form.comment}
-            onChange={this.handleChange}></textarea>
-          </label>
-          <button onClick={this.addComment}>Добавить комментарий</button>
+          <ul className="wrapper">
+            <li className="form-row">
+            <label className="nameComment">Имя: <input
+              type="text"
+              value={this.state.form.name}
+              name="name"
+              onChange={this.handleChange}
+              /></label>
+            </li>
+            <li className="form-row">
+            <label className="textComment">Комментарий: <textarea
+              name="comment"
+              value={this.state.form.comment}
+              onChange={this.handleChange}
+              ></textarea>
+            </label>
+            </li>
+            <button onClick={this.addComment}>Добавить комментарий</button>
+
+          </ul>
         </div>
       </div>
     )

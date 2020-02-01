@@ -13,7 +13,7 @@ function App() {
         <main>
         <Main />
         <CommentBlock />
-        <Comment />     
+            
         </main>
       </div>  
     </body>

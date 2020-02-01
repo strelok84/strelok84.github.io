@@ -3,6 +3,7 @@ import Header from "./components/Header"
 import './App.css';
 import Main from "./components/Main"
 import CommentBlock from "./components/CommentBlock"
+import Comment from "./components/Comment"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <Header />
         <main>
         <Main />
-        <CommentBlock />        
+        <CommentBlock />
+        <Comment />     
         </main>
       </div>  
     </body>

@@ -15,7 +15,7 @@ class Comment extends Component {
  
   componentDidMount() {
     if (localStorage.getItem('state')) {
-      this.setState({ ...JSON.parse(localStorage.getItem('state')) })
+      this.setState({ ...JSON.parse(localStorage.getItem('state'+this.props.num)) })
     }
   }
  
@@ -34,13 +34,13 @@ class Comment extends Component {
         name: '',
         comment: ''
       }
-    }, () => localStorage.setItem('state', JSON.stringify(this.state)))
+    }, () => localStorage.setItem('state'+this.props.num, JSON.stringify(this.state)))
   }
  
   removeComment = (id) => {
     this.setState({
       comments: this.state.comments.filter(comment => comment.id !== id)
-    }, () => localStorage.setItem('state', JSON.stringify(this.state)))
+    }, () => localStorage.setItem('state'+this.props.num, JSON.stringify(this.state)))
   }
  
   handleChange = (e) => {

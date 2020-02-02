@@ -1,4 +1,5 @@
 import React from 'react';
+import Comment from "./Comment";
 
 function CommentBlock(){
     return(
@@ -7,18 +8,7 @@ function CommentBlock(){
             <input type="checkbox" id="hd-3" className="hide"/>
             
                 <label for="hd-3" >Комментарии</label>
-		        <div id="sigCommentsBlock"></div>
-                <script type="text/javascript" async>
-                    {(function(){
-                        let host_id = '3719';
-                        var script = document.createElement('script');
-                        script.type = 'text/javascript';
-                        script.async = true;
-                        script.src = '//sigcomments.com/chat/?host_id='+host_id;
-                        var ss = document.getElementsByTagName('script')[1]; 
-                        ss.parentNode.insertBefore(script, ss);
-                    })()};
-                </script>
+		        <Comment />
                 
         </section>
     )

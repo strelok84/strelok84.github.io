@@ -97,5 +97,5 @@ class Comment extends Component {
     )
   }
 }
-Comment.contextType=baseOfComment;
-export default Comment
+
+export default Comment;

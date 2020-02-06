@@ -21,8 +21,8 @@ class Comment extends Component {
       this.setState({ ...JSON.parse(localStorage.getItem('state'+this.props.num)) })
     }
     let numcom="state"+this.props.num;
-    this.context.numcom=this.state.comments;
-    console.log(this.context.numcom)
+    this.context.numcom=this.state.form;
+    console.log(numcom)
   }
  
   addComment = () => {

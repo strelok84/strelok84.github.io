@@ -4,23 +4,27 @@ import { format } from 'date-fns'
 
 
 class Comment extends Component {
-  
-  state = {
-    comments: [],
-    form: {
-      name: '',
-      comment: ''
+  constructor(){
+    super()
+    this.state = {
+      comments: [],
+      form: {
+        name: '',
+        comment: ''
+      }
     }
   }
   
-
   
-
   componentDidMount() {
     if (localStorage.getItem('state')) {
       this.setState({ ...JSON.parse(localStorage.getItem('state'+this.props.num)) })
     }
-    console.log(this.context)
+     // eslint-disable-next-line no-useless-escape
+    const url="http://f92768t2.beget.tech/data/data.json";
+    fetch(url)
+    .then(response => response.json())
+    .then(commits => console.log(commits));
   }
  
   addComment = () => {
@@ -38,7 +42,8 @@ class Comment extends Component {
         name: '',
         comment: ''
       }
-    }, () => localStorage.setItem('state'+this.props.num, JSON.stringify(this.state)))
+    }, 
+    () => localStorage.setItem('state'+this.props.num, JSON.stringify(this.state)))
   }
  
   removeComment = (id) => {

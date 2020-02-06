@@ -16,7 +16,7 @@ function App() {
         <Main />
         
         <CommentBlock />
-        
+          
         </main>
       </div>  
     </body>

@@ -15,9 +15,8 @@ function Main(){
                 </p>
                 <input type="checkbox" id="hd-1" class="hide"/>
                 <label for="hd-1" >Комментарии</label>
-		        <div id="sigCommentsBlock">
-                    <Comment num="0"/>
-                </div>
+		        <Comment num="0"/>
+                
                 
             </section>
             <section className="about">
@@ -26,7 +25,8 @@ function Main(){
                 <label for="hd-2" >Roadmap от уважаемого <a href="https://github.com/kamranahmedse/kamranahmedse.github.io">kamranahmedse</a></label>
                 <div>
                 <img src="img/frontendScheme.png" alt="схема_развития" class="scheme__about" srcset="img\frontendScheme.webp" />
-                </div>      
+                </div>
+                <Comment num="1" />   
             </section>    
         </div>
     )

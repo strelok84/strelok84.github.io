@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Data from "../data/Data"
+import {ThemeContext} from "../data/Data"
 import { format } from 'date-fns'
 
 
@@ -20,11 +20,9 @@ class Comment extends Component {
     if (localStorage.getItem('state')) {
       this.setState({ ...JSON.parse(localStorage.getItem('state'+this.props.num)) })
     }
-     // eslint-disable-next-line no-useless-escape
-    const url="http://f92768t2.beget.tech/data/data.json";
-    fetch(url)
-    .then(response => response.json())
-    .then(commits => console.log(commits));
+    let numcom="state"+this.props.num;
+    this.context.numcom=this.state.comments;
+    console.log(this.context.numcom)
   }
  
   addComment = () => {
@@ -97,5 +95,5 @@ class Comment extends Component {
     )
   }
 }
-
+Comment.contextType = ThemeContext;
 export default Comment;

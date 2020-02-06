@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react'
 
-var count=1;
+export var com={
+    num1:{
+        name:"Andrey",
+        comment:"таратар",
+    },
+    num2:{
+        name:"Vasiliy",
+        comment:"nnnnn",
+    },
+};
 
-function Data (){
-    return 
-}
+export const ThemeContext = React.createContext(com);
 
 
-
-export default Data

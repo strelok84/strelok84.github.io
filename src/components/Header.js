@@ -5,7 +5,7 @@ function Header(){
         <header className="container__header">
             <p className="container__hello">Привет! Меня зовут Андрей и я увлекаюсь фронтенд-разработкой</p>
             <div className="container__selfie"> 
-                <img className="img__selfie" src="img/selfie.jpg" srcset="img/selfie.webp" alt="selfie"/>
+                <img className="img__selfie" src="img/selfie.jpg" srcSet="img/selfie.webp" alt="selfie"/>
             </div>
         </header>
     )

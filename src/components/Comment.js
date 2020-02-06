@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
-
+import Data from "../data/Data"
 import { format } from 'date-fns'
 
 
 class Comment extends Component {
- 
+  
   state = {
     comments: [],
     form: {
@@ -12,11 +12,15 @@ class Comment extends Component {
       comment: ''
     }
   }
- 
+  
+
+  
+
   componentDidMount() {
     if (localStorage.getItem('state')) {
-      this.setState({ ...JSON.parse(localStorage.getItem('state')) })
+      this.setState({ ...JSON.parse(localStorage.getItem('state'+this.props.num)) })
     }
+    console.log(this.context)
   }
  
   addComment = () => {
@@ -34,17 +38,17 @@ class Comment extends Component {
         name: '',
         comment: ''
       }
-    }, () => localStorage.setItem('state', JSON.stringify(this.state)))
+    }, () => localStorage.setItem('state'+this.props.num, JSON.stringify(this.state)))
   }
  
   removeComment = (id) => {
     this.setState({
       comments: this.state.comments.filter(comment => comment.id !== id)
-    }, () => localStorage.setItem('state', JSON.stringify(this.state)))
+    }, () => localStorage.setItem('state'+this.props.num, JSON.stringify(this.state)))
   }
  
   handleChange = (e) => {
-    console.log(e.target.name)
+    
     this.setState({
       form: {
         ...this.state.form,
@@ -88,5 +92,5 @@ class Comment extends Component {
     )
   }
 }
- 
+Comment.contextType=baseOfComment;
 export default Comment

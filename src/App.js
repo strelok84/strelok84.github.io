@@ -5,18 +5,22 @@ import Main from "./components/Main"
 import CommentBlock from "./components/CommentBlock"
 import Comment from "./components/Comment"
 
+var baseOfComment=React.createContext("yellow");
 function App() {
   return (
+    
     <body>
       <div className="container">
         <Header />
         <main>
         <Main />
+        
         <CommentBlock />
-            
+        
         </main>
       </div>  
     </body>
+    
   );
 }
 

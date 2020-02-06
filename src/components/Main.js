@@ -16,7 +16,7 @@ function Main(){
                 <input type="checkbox" id="hd-1" class="hide"/>
                 <label for="hd-1" >Комментарии</label>
 		        <div id="sigCommentsBlock">
-                    <Comment />
+                    <Comment num="0"/>
                 </div>
                 
             </section>

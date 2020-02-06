@@ -22,7 +22,7 @@ class Comment extends Component {
     }
     let numcom="state"+this.props.num;
     this.context.numcom=this.state.form;
-    console.log(numcom)
+    console.log(this.context.numcom.name)
   }
  
   addComment = () => {

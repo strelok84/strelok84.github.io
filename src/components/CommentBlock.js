@@ -6,10 +6,8 @@ function CommentBlock(){
         <section className="about">
             <p>Тратата</p>
             <input type="checkbox" id="hd-3" className="hide"/>
-            
-                <label for="hd-3" >Комментарии</label>
-		        <Comment />
-                
+            <label htmlFor="hd-3" >Комментарии</label>
+		    <Comment num="2" />
         </section>
     )
 }

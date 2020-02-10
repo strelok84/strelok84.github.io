@@ -20,7 +20,7 @@ function App() {
         <Main />
         
         <CommentBlock />
-        <CommentBox data={data}/>
+        <CommentBox url="/api/comments"/>
         </main>
       </div>  
     </body>

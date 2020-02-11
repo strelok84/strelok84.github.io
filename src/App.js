@@ -20,7 +20,7 @@ function App() {
         <Main />
         
         <CommentBlock />
-        <CommentBox url="/home/streloc84/Рабочий стол/reactsite/whoiam/src/components/data.json" pollInterval={2000} />
+        <CommentBox url="http://f92768t2.beget.tech/data.json" pollInterval={2000} />
         </main>
       </div>  
     </body>

@@ -1,7 +1,7 @@
 import React,{ Component } from "react";
 import CommentList from "./CommentList";
 import CommentForm from "./CommentForm";
-
+import $ from 'jquery';
 
 
 
@@ -12,9 +12,31 @@ class CommentBox extends React.Component{
             data:[]
         }
       }
+    
+    loadCommentsFromserver=()=>{
+        $.ajax({
+            url:this.props.url,
+            dataType:"json",
+            cache:false,
+            success:function(data){
+                this.setState({data:data});
+                console.log(data);
+            }.bind(this),
+            error:function(xhr,status,err){
+                console.error(this.props.url,status,err.toString());
+            }.bind(this)
+        });
+    }  
+
     getInitialState(){
         return {data:[]}
     }
+
+    componentDidMount (){
+        this.loadCommentsFromserver();
+        setInterval(this.loadCommentsFromserver,this.props.pollInterval);
+    }
+
     render(){
         /* var data=[
             {id:1, author:"Pete Hunt", text:"This is one comment"},

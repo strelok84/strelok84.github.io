@@ -7,7 +7,7 @@ import Comment from "./components/Comment"
 import CommentBox from "./components/commentB/CommentBox"
 var baseOfComment=React.createContext("yellow");
 var data=[
-  {id:1, author:"Pete Hunt", text:"This is one comment"},
+  {id:3, author:"Pete Hunt", text:"This is one comment"},
   {id:2, author:"Jordan Walke", text:"This is another comment"}
 ];
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Main />
         
         <CommentBlock />
-        <CommentBox data={data}/>
+        <CommentBox url="http://f92768t2.beget.tech/data.json" pollInterval={2000} />
         </main>
       </div>  
     </body>

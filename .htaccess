@@ -1,0 +1,2 @@
+AddDefaultCharset UTF-8
+Header set Access-Control-Allow-Origin "*"

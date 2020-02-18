@@ -20,7 +20,7 @@ function App() {
         <Main />
         
         <CommentBlock />
-        <CommentBox url="http://f92768t2.beget.tech/data.json" pollInterval={2000} />
+        <CommentBox url="https://github.com/streloc84/streloc84.github.io/blob/gh-pages/data.json" pollInterval={2000} />
         </main>
       </div>  
     </body>

@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "39a4acc6387b0ba6216897a621250498",
+    "revision": "5811afded4c8d2cd93f8e6aa429b81de",
     "url": "/streloc84.github.io/index.html"
   },
   {
-    "revision": "4b2c979ac2e7d09002c5",
+    "revision": "9b76ccc6f86328ae4ed6",
     "url": "/streloc84.github.io/static/css/main.52439501.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/streloc84.github.io/static/js/2.dde64cec.chunk.js.LICENSE"
   },
   {
-    "revision": "4b2c979ac2e7d09002c5",
-    "url": "/streloc84.github.io/static/js/main.12e8313e.chunk.js"
+    "revision": "9b76ccc6f86328ae4ed6",
+    "url": "/streloc84.github.io/static/js/main.cc0e5a2b.chunk.js"
   },
   {
     "revision": "ec46f61669cf277dd387",

@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/streloc84.github.io/static/css/main.52439501.chunk.css",
-    "main.js": "/streloc84.github.io/static/js/main.cc0e5a2b.chunk.js",
-    "main.js.map": "/streloc84.github.io/static/js/main.cc0e5a2b.chunk.js.map",
+    "main.css": "/streloc84.github.io/static/css/main.fd51d1b7.chunk.css",
+    "main.js": "/streloc84.github.io/static/js/main.eb1f26cc.chunk.js",
+    "main.js.map": "/streloc84.github.io/static/js/main.eb1f26cc.chunk.js.map",
     "runtime-main.js": "/streloc84.github.io/static/js/runtime-main.9cecdb52.js",
     "runtime-main.js.map": "/streloc84.github.io/static/js/runtime-main.9cecdb52.js.map",
     "static/js/2.dde64cec.chunk.js": "/streloc84.github.io/static/js/2.dde64cec.chunk.js",
     "static/js/2.dde64cec.chunk.js.map": "/streloc84.github.io/static/js/2.dde64cec.chunk.js.map",
     "index.html": "/streloc84.github.io/index.html",
-    "precache-manifest.bbda96e2e518f8176db409f349d244f5.js": "/streloc84.github.io/precache-manifest.bbda96e2e518f8176db409f349d244f5.js",
+    "precache-manifest.daef13d7ce3a6eb92718b9b7272df872.js": "/streloc84.github.io/precache-manifest.daef13d7ce3a6eb92718b9b7272df872.js",
     "service-worker.js": "/streloc84.github.io/service-worker.js",
-    "static/css/main.52439501.chunk.css.map": "/streloc84.github.io/static/css/main.52439501.chunk.css.map",
+    "static/css/main.fd51d1b7.chunk.css.map": "/streloc84.github.io/static/css/main.fd51d1b7.chunk.css.map",
     "static/js/2.dde64cec.chunk.js.LICENSE": "/streloc84.github.io/static/js/2.dde64cec.chunk.js.LICENSE",
     "static/media/index.css": "/streloc84.github.io/static/media/textured_paper.3c0f6fd6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9cecdb52.js",
     "static/js/2.dde64cec.chunk.js",
-    "static/css/main.52439501.chunk.css",
-    "static/js/main.cc0e5a2b.chunk.js"
+    "static/css/main.fd51d1b7.chunk.css",
+    "static/js/main.eb1f26cc.chunk.js"
   ]
 }

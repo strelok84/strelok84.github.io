@@ -32,6 +32,10 @@ class CommentBox extends React.Component{
         return {data:[]}
     } */
     handleCommentsubmit=(comment)=>{
+        var comments=this.state.data;
+        comment.id=Date.now();
+        var newComments=comments.concat([comment]);
+        this.setState({data:newComments});
         $.ajax({
             url:this.props.url,
             dataType:"json",

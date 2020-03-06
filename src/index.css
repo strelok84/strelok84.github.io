@@ -180,3 +180,27 @@ form-row {
 .nameComment>input{
   margin:.5rem auto;
 }
+
+.container__footer{
+  grid-column-start: 1;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-template-rows: 1fr; 
+  padding-left:5vw; */
+  
+}
+
+.container__footer a img{
+  width:1.5vw;
+  
+}
+.container__footer a{
+  
+  grid-column-start: 4;
+  grid-column-end: 4;
+  
+}

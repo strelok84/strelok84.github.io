@@ -1,15 +1,15 @@
 import React from 'react';
 import Header from "./components/Header"
+import Footer from "./components/Footer"
 import './App.css';
 import Main from "./components/Main"
 import CommentBlock from "./components/CommentBlock"
 import Comment from "./components/Comment"
 import CommentBox from "./components/commentB/CommentBox"
+/* const http = require("./server.js") */
+let commentbase=require("./data/data.json");
 var baseOfComment=React.createContext("yellow");
-var data=[
-  {id:3, author:"Pete Hunt", text:"This is one comment"},
-  {id:2, author:"Jordan Walke", text:"This is another comment"}
-];
+
 function App() {
   return (
     
@@ -22,6 +22,7 @@ function App() {
         <CommentBlock />
         <CommentBox url="http://f92768t2.beget.tech/data.json" pollInterval={2000} />
         </main>
+        <Footer />
       </div>  
     </body>
     

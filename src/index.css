@@ -186,11 +186,11 @@ form-row {
   grid-column-end: 13;
   grid-row-start: 3;
   grid-row-end: 4;
-  
-  /* display: grid; */
-  /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-template-rows: 1fr; 
-  padding-left:5vw; */
+  border-top:3px dotted #111;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr; 
+  /* padding-left:5vw; */
   
 }
 
@@ -198,9 +198,23 @@ form-row {
   width:1.5vw;
   
 }
+
+.container__footer a:nth-child(1){
+  
+  grid-column-start: 5;
+  
+}
+.container__footer a:nth-child(2){
+  
+  grid-column-start: 6;
+  
+}
+.container__footer a:nth-child(3){
+  
+  grid-column-start: 7;
+  
+}
 .container__footer a{
-  
-  grid-column-start: 4;
-  grid-column-end: 4;
-  
+  margin:auto;
+  grid-row-start: 2;
 }

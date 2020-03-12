@@ -5,7 +5,7 @@ import './App.css';
 import Main from "./components/Main"
 import CommentBlock from "./components/CommentBlock"
 import Comment from "./components/Comment"
-import CommentBox from "./components/commentB/CommentBox"
+
 /* const http = require("./server.js") */
 let commentbase=require("./data/data.json");
 var baseOfComment=React.createContext("yellow");
@@ -20,7 +20,7 @@ function App() {
         <Main />
         
         <CommentBlock />
-        <CommentBox url="http://f92768t2.beget.tech/data.json" pollInterval={2000} />
+        
         </main>
         <Footer />
       </div>  

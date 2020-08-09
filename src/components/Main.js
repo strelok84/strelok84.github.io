@@ -2,13 +2,14 @@ import React from "react";
 import Comment from "./Comment";
 
 function Main() {
+  let birthDate=new Date(1984,8,27);
   return (
     <div>
       <section className="about" itemScope itemType="http://schema.org/Person">
         <p>
           Немного о себе:
           <br />
-          Мне 35 лет.
+          Мне {Math.floor((new Date().getTime()-new Date(birthDate))/(24 * 3600 * 365.25 * 1000))} лет.
           <span itemProp="address"> Я живу в Самаре.</span>
           <span itemProp="alumniOf">
             {" "}

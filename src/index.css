@@ -10,7 +10,7 @@ body {
   grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
   background-color: #eeeeee;
   background-image: url(img/textured_paper.png);
-  font-family: "B52", sans-serif;
+  font-family: "B52", sans-serif;  
 }
 .container__header {
   grid-column-start: 1;
@@ -62,7 +62,7 @@ body {
   width: 50%;
   height: 30%;
   z-index: 2;
-  -webkit-transform: rotate(-30deg);
+  /* -webkit-transform: rotate(-30deg); */
 }
 @font-face {
   font-family: "B52";
@@ -93,8 +93,9 @@ main {
 }
 .about p {
   margin: 0;
-
+  line-height: 1.5;
   font-size: 1.5rem;
+  
 }
 #sigCommentsBlock {
   background-image: url(img/textured_paper.png);
@@ -114,6 +115,7 @@ main {
   margin-left: auto;
   margin-right: 2vw;
   margin-top: 2vh;
+  margin-bottom: 2vh;
   text-align: right;
   padding-right: 1vw;
   width: 30%;
@@ -163,6 +165,7 @@ form-row {
   box-shadow: #999 2px 2px 2px;
   margin-right: 2vw;
   margin-left: auto;
+  margin-top:2vh;
   width: 50%;
   padding: 1rem;
 }

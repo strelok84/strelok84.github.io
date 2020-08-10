@@ -3,8 +3,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./App.css";
 import Main from "./components/Main";
-import CommentBlock from "./components/CommentBlock";
-import Comment from "./components/Comment";
+import Post from "./components/Post";
+
 
 /* const http = require("./server.js") */
 let commentbase = require("./data/data.json");
@@ -17,7 +17,7 @@ function App() {
         <Header />
         <main>
           <Main />
-          <CommentBlock />
+          <Post />
         </main>
         <Footer />
       </div>

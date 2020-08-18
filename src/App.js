@@ -6,9 +6,6 @@ import Main from "./components/Main";
 import Post from "./components/Post";
 
 
-/* const http = require("./server.js") */
-let commentbase = require("./data/data.json");
-var baseOfComment = React.createContext("yellow");
 
 function App() {
   return (
@@ -17,7 +14,19 @@ function App() {
         <Header />
         <main>
           <Main />
-          <Post />
+          <Post num="2" hd="hd-3">
+            <p>
+              Сделал небольшое погодное приложение, опять-таки на React
+              <br />
+              Определяет местоположение пользователя на основе данных
+              navigator.geolocation (или вручную). Данные тянет по API с
+              metaweather.com
+              <br />
+              <a href="https://streloc84.github.io/weather/">
+                https://streloc84.github.io/weather/
+              </a>
+            </p>
+          </Post>
         </main>
         <Footer />
       </div>

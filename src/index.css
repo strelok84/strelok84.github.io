@@ -96,7 +96,7 @@ main {
   margin: 0;
   line-height: 1.5;
   font-size: 1.5rem;
-  
+  word-wrap: break-word;
 }
 #sigCommentsBlock {
   background-image: url(img/textured_paper.png);

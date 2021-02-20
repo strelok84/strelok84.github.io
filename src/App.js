@@ -56,10 +56,20 @@ function App() {
               navigator.geolocation (или вручную). Данные тянет по API с
               metaweather.com
               <br />
-              <a href="https://streloc84.github.io/weather/">
-                https://streloc84.github.io/weather/
+              <a href="https://strelok84.github.io/weather/">
+                https://strelok84.github.io/weather/
               </a>
             </p>
+          </Post>
+          <Post num="3" hd="hd-5">
+            <p>
+            Сделал приложение футбольной статистики. Пришлось повозиться , ибо 
+            gh-pages довольно криво работает с роутингом SPA.
+            <br />
+            <a href="https://strelok84.github.io/football/">
+                https://strelok84.github.io/football/
+              </a>
+            </p>  
           </Post>
         </main>
         <Footer />

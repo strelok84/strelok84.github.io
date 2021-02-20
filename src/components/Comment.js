@@ -35,7 +35,7 @@ class Comment extends Component {
           {
             id: this.state.comments.length
               ? this.state.comments.reduce((p, c) => (p.id > c.id ? p : c)).id +
-                1
+              1
               : 1, // max id +1
             name: this.state.form.name,
             comment: this.state.form.comment,
